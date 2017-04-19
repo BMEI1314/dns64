@@ -1,10 +1,11 @@
-##DNS64_getaddrinfo 
+**DNS64_getaddrinfo** 
 [![License](https://img.shields.io/badge/license-BSD-blue.svg)](../LICENSE)
 ---
-###Brief Description
+**Brief Description**
  With the lack of ipv4 address，many countries is to promote ipv6.
  The code is to solve the problem that ipv6 host has a access to ipv4(including:1.the IPv6 Internet to an IPv4 network,2.an IPv6 network to the IPv4 Internet,3.an IPv6 network to an IPv4 network).Learning from the APPLE ios9.2 getaddrinfo API,We know that Apple ensure IPv6 DNS64/NAT64 Compatibility.
    I have a test for the API.
+   
 **Testing environment:**
    - IPV6-only network by apple mac ox sharing
    - iphone6s   version:10.2
@@ -23,6 +24,7 @@ OK....
     1.2001:67c:27e4:15::64
     2.2001:67c:27e4:15::6411
     3.2001:67c:27e4::60
+    
   **step**
   ```
   1.Combine dnsquery packet
