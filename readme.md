@@ -37,7 +37,8 @@ OK....
  if the input is ipv4 address.
    1.get nat64 prefix(RFC 6052,reference to the code)
    2.replace ()
-###How to Build in ubuntu
+   
+**How to Build in ubuntu**
 
 1. make sure  support ipv6-stack(eg:sudo apt-get install miredo)
 
