@@ -18,12 +18,17 @@
  
 OK....
    My project is to provide a interface that input domain or ipv4_addr ,return  a struct consisting of ip_num,ipv4_mapped ipv6 address.
-   The code is written in C.Currently it is only tested on ubuntu 16.04.
-###Method
-   I just know three public Dns64 servers.
-    1.2001:67c:27e4:15::64
-    2.2001:67c:27e4:15::6411
-    3.2001:67c:27e4::60
+   The code is written in C.Currently it is only tested on ubuntu 16.04.
+
+**Method**
+
+I just know three public Dns64 servers.
+ 
+ 1.2001:67c:27e4:15::64
+ 
+ 2.2001:67c:27e4:15::6411
+  
+  3.2001:67c:27e4::60
     
   **step**
   ```
