@@ -2,7 +2,7 @@
 [![License](https://img.shields.io/badge/license-BSD-blue.svg)](../LICENSE)
 ---
 **Brief Description**
- With the lack of ipv4 address，many countries is to promote ipv6.
+ With the lack of ipv4 address，many countries are to promote ipv6.
  The code is to solve the problem that ipv6 host has a access to ipv4(including:1.the IPv6 Internet to an IPv4 network,2.an IPv6 network to the IPv4 Internet,3.an IPv6 network to an IPv4 network).Learning from the APPLE ios9.2 getaddrinfo API,We know that Apple ensure IPv6 DNS64/NAT64 Compatibility.
    I have a test for the API.
    
